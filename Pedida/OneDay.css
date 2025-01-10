@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-image: url('img/Imagen de WhatsApp 2025-01-10 a las 01.35.34_72321ad9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dayone-container {
+    text-align: center;
+    padding: 40px;
+    background:transparent; /* Fondo semi-transparente */
+    border: 2px solid white; /* Borde rosado */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.dayone-container h1 {
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dayone-container p {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre imagenes */
+}
+
+.images-container img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white; /* Sombra con color rosado */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .dayone-container {
+        padding: 20px;
+    }
+
+    .images-container img {
+        max-width: 150px;
+    }
+    .content { 
+        padding: 10px; 
+    } 
+    .content h1 { 
+        font-size: 40px; /* Ajusta el tamaño de la fuente del encabezado */ 
+    } 
+    .content p { 
+        font-size: 20px; /* Ajusta el tamaño de la fuente del párrafo */ 
+    }
+}

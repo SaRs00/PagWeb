@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #f8bf5c;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    height: 60vh !important;
+    background: url('img/Imagen de WhatsApp 2025-01-07 a las 03.56.01_6b015e0a.jpg');
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    cursor: pointer;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f8bf5c;
+    color: #ffffff;
+    border: 1px solid #f8bf5c;
+    text-shadow: 
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff;
+    box-shadow: 
+        0 0 5px #f8bf5c,
+        0 0 20px #f8bf5c,
+        0 0 50px #f8bf5c,
+        0 0 100px #f8bf5c;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #7f7171;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+    background-position: center;
+    background-size: contain;
+    display: flex; /* Usamos flexbox */ 
+    flex-direction: column; /* Alinea los elementos en columna */ 
+    justify-content: center; /* Centra los elementos verticalmente */ 
+    align-items: center;
+    cursor: pointer; /* Hace que el div se vea como un botón */ 
+    transition: background-color 0.3s;
+}
+
+.box-container .box:nth-child(1) {
+    background: url('img/Mora - Estrella.jpeg') no-repeat center center;
+    background-size: 17rem 13rem;
+}
+
+.box-container .box:nth-child(2) {
+    background: url('img/Mora - Estrella.jpeg') no-repeat center center;
+    background-size: 17rem 13rem;
+}
+
+.box-container .box:nth-child(3) {
+    background: url('img/Mac Miller (wallpaper)_ _The Divine Feminine_.jpeg') no-repeat center center;
+    background-size: 17rem 20rem;
+}
+
+.box-container .box:hover { 
+    background-color: transparent; /* Cambia el color de fondo al pasar el mouse */ 
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #FFF;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    background: #7f7171;
+}
+
+.price {
+    background: url('img/Imagen de WhatsApp 2025-01-10 a las 01.35.14_d8663fc5.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#personajes {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: #7f7171;
+}
+
+.personaje {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personaje:nth-child(1){
+    background-color: #D2B48C;
+}
+
+.personaje:nth-child(2){
+    background-color: #4169E1;
+}
+
+.personaje img {
+    width: 200px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 4px 0 0 4px;
+}
+
+.detalles {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detalles h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.detalles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detalles li {
+    background-color: #eef;
+    margin: 3px 0;
+    padding: 4px;
+    border-radius: 2px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+   
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+    #personajes { 
+        flex-direction: column; /* Disposición vertical para pantallas pequeñas */ 
+        align-items: center; /* Alínea al centro */ 
+    } 
+    .personaje { 
+        max-width: 90%; /* Anchura mayor en pantallas pequeñas */ 
+        margin: 10px 0; /* Espaciado vertical */ 
+    } 
+    .detalles ul { 
+        text-align: center; /* Centrar el texto en pantallas pequeñas */ 
+    }
+}
+
